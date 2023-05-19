@@ -1,4 +1,10 @@
 <?php include 'bookserver.php'; ?>
+<?php 
+$min = new DateTime();
+$min->modify("0 days");
+$max = new DateTime("4 days");
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -101,7 +107,7 @@
 
 	<div class="input-group">
 		<label>Date</label>
-		<input type="Date" name="Date">
+		<input type="date" value="<?php echo date("Y-m-d");?>" min=<?=$min->format("Y-m-d")?> max=<?=$max->format("Y-m-d")?> name="date">
 
 	</div>
 
@@ -119,7 +125,6 @@
 	    ?>
 
 </form>
-
 
 </body>
 
