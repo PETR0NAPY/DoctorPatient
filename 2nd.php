@@ -48,7 +48,14 @@
 
 	<div class="input-group">
 		<label>Category</label>
-		<input type="text" name="category">
+		<select name="category" class="xd">
+	   		<option value="bone" >bone</option>
+	   		<option value="heart">heart</option>
+	   		<option value="Dentistry">Dentistry</option>
+	   		<option value="MentalHealth">Mental Health</option>
+	   		<option value="Surgery">Surgery</option>
+			   <option value="consultation">consultation</option>
+		</select>
 	</div>
    
 
