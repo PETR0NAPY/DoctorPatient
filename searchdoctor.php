@@ -35,7 +35,7 @@
 	<?php include ('errors.php') ;?>
 
 	<div class="input-group">
-		<label style="font-weight: bold;">Search By:<br>*Doctor ID<br>*Doctor Name<br>*Categorey</label>
+		<label style="font-weight: bold;">Search By:<br>*Doctor ID<br>*Doctor Name</label>
 		<input type="text" name="dID" >
 
 	</div>
