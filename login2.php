@@ -26,6 +26,9 @@
 	<div class="input-groupD">
 		<button type="submit" name="Login2" class="btnD"> Login</button>
 	</div>
+	<p>
+		Not a member? <a href="2nd.php">Sign Up </a>
+	</p>
 </form>
 
 </body>

@@ -47,10 +47,8 @@ $max = new DateTime("4 days");
 
 
 	<form action="<?php echo $_SERVER['PHP_SELF'];?>" method="post">
-
-
-			<div class="input-group">
-		<label>Categery</label>
+	<div class="input-group">
+		<label>Category</label>
 	   	<select name="categorey" class="xd">
 	   		<option value="bone" >bone</option>
 	   		<option value="heart">heart</option>
@@ -58,10 +56,7 @@ $max = new DateTime("4 days");
 	   		<option value="MentalHealth">Mental Health</option>
 	   		<option value="Surgery">Surgery</option>
 			   <option value="consultation">consultation</option>
-
-	   	</select>
-
-
+		</select>
 	</div>
 
 	<div class="input-group">

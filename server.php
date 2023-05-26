@@ -75,6 +75,74 @@ if(count($errors)==0){
 	# code...
 }
 
+# Doctors Registration 
+
+if (isset($_POST['Register1'])) {
+	$DoctorID 	= $mysqli -> real_escape_string($_POST['DoctorID']);
+	$Doctorname 	= $mysqli -> real_escape_string($_POST['Doctorname']);
+	$Address 	= $mysqli -> real_escape_string($_POST['Address']);
+	$ContactNumber	 = $mysqli -> real_escape_string($_POST['ContactNumber']);
+	$Email 		=  $mysqli -> real_escape_string($_POST['email']);
+	$Password 	= $mysqli -> real_escape_string($_POST['password']);
+	$category 	= $mysqli -> real_escape_string($_POST['category']);
+    
+	if (empty($DoctorID)) {
+	array_push($errors,"DoctorID is required");
+	# code...
+}
+
+if (empty($Doctorname)) {
+	array_push($errors,"Doctorname is required");
+	# code...
+}
+
+
+if (empty($Address)) {
+	array_push($errors,"Address is required");
+	# code...
+}
+
+if (empty($ContactNumber)) {
+	array_push($errors,"Contact Number is required");
+	# code...
+}
+
+
+if (empty($Email)) {
+	array_push($errors,"Email is required");
+	# code...
+}
+
+if (empty($Password)) {
+	array_push($errors,"Password is required");
+	# code...
+}
+
+if (empty($category)) {
+	array_push($errors,"category is required");
+	# code...
+}
+
+if(count($errors)==0){
+
+
+	$Password=md5($Password);
+
+	$sql = "INSERT INTO  doctor (DoctorID, Doctorname, email, Address, ContactNumber, password, categorey) VALUES ('$DoctorID','$Doctorname','$Address','$ContactNumber','$Email','$Password','$category') ";
+   
+	if (!$mysqli -> query($sql)) {
+  printf("%d Row inserted.\n", $mysqli->affected_rows);
+}
+
+}
+	
+	# code...
+}
+
+
+
+# Login Code 
+
 if (isset($_POST['Login'])) {
 
 		$UserID 	= $mysqli -> real_escape_string($_POST['UserID']);

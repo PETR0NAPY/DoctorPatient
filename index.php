@@ -11,14 +11,12 @@
 <header>
 	<h1>Doctor<span>Patient</span></h1>
 		<nav>
-		
 		<ul> 
 			<li><a href=" index.php">MyInfo</a></li>
 			<li><a href=" book.php">Book Appointment</a></li>
 			<li><a href=" view.php">View Appointment</a></li>
 			<li><a href="cancel.php">Cancel Booking</a></li>
 			<li><a href=" searchdoctor.php">Search Doctor</a></li>
-
 			<li><a href="Doctorpatient.php">Logout</a></li>
 		</ul>
 	</nav>
@@ -58,10 +56,6 @@
 		<button type="submit" name="treatmentHistory" class="btn" style=" border-radius: 5px;margin-left: 80%; border:none;padding: 10px 20px 10px 20px">MyTreatment History</button>
 
 </div>
-	<div class="input-group">
-		<button type="submit" name="feedback" class="btn" style=" border-radius: 5px;margin-left: 80%; border:none;padding: 10px 30px 10px 30px">Send Feedback</button>
-	</div>
-
 </form>
 
 	<?php  
