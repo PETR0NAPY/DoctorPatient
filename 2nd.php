@@ -6,7 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="style/style.css">
 </head>
 <body>
-	<div class="header">
+	<div class="header" >
 	<h2>Register</h2>
 </div>
 
@@ -43,7 +43,7 @@
 
 	<div class="input-group">
 		<label>Password</label>
-		<input type="text" name="password">
+		<input type="Password" name="password">
 	</div>
 
 	<div class="input-group">
