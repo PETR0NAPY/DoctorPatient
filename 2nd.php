@@ -43,7 +43,7 @@
 
 	<div class="input-group">
 		<label>Password</label>
-		<input type="text" name="password">
+		<input type="Password" name="password">
 	</div>
 
 	<div class="input-group">
