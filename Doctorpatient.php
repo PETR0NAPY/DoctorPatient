@@ -3,7 +3,6 @@
 <head>
 	<title>Doctor Patient</title>
 	<link rel="stylesheet"  href="style/doctorpatient.css">
-	
 	<style type="text/css">
 		body {
 			background-image: url('image.jpg');
