@@ -3,7 +3,7 @@
 <html>
 <head>
 	<title>Doctor</title>
-	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<link rel="stylesheet" type="text/css" href="style/style7.css">
 </head>
 <body>
 	<div class="header" >

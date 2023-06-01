@@ -130,6 +130,12 @@ body{
 
 }
 
+.input-groupE{
+	padding: 10px; 
+	font-size: 15px;
+	color: #03010f;
+}
+
 .btnD{
 
 	padding: 10px;
@@ -138,9 +144,6 @@ body{
 	background: #423289;
 	border:none;
 	border-radius: 5px;
-
-
-
 
 }
 
