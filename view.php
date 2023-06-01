@@ -29,7 +29,7 @@
 </header>
 
 <body>
-	<h1 class="my">My<span class="mys">Appointment</span></h1>
+	<h1 class="my"><span class="mys"> My Appointment</span></h1>
 
 	<table class="table2">
 		<tr>

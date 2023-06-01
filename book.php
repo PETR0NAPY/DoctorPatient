@@ -102,7 +102,7 @@ $max = new DateTime("4 days");
 
 	<div class="input-group">
 		<label>Date</label>
-		<input type="date" value="<?php echo date("Y-m-d");?>" min=<?=$min->format("Y-m-d")?> max=<?=$max->format("Y-m-d")?> name="date">
+		<input type="Date" value="<?php echo date("Y-m-d");?>" min=<?=$min->format("Y-m-d")?> max=<?=$max->format("Y-m-d")?> name="Date">
 
 	</div>
 
