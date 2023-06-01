@@ -3,7 +3,7 @@
 <html>
 <head>
 	<title>Doctor</title>
-	<link rel="stylesheet"  href="style/style3.css">
+	<link rel="stylesheet"  href="style/style2.css">
 	<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 </head>
 

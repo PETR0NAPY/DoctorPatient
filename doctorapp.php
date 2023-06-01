@@ -27,7 +27,7 @@
 </header>
 
 <body>
-	<h1 class="my1">My<span class="mys">Appointments</span></h1>
+	<h1 class="my1"><span class="mys">My Appointments</span></h1>
 
 	<table class="table2">
 		<tr>
