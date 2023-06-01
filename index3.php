@@ -22,14 +22,13 @@
 		
 	</nav>
 </header>
-<body>
-
-		<div class="headerA">
+	<body>
+	<div class="headerA">
 	<h2>Add Doctor</h2>
-</div>
+    </div>
 
-<form method="post" action="index3.php">
-
+	<form method="post" action="index3.php">
+		
 	<?php include ('errors.php'); ?>
 
 	<div class="input-groupA">
@@ -73,6 +72,7 @@
 		<button type="submit" name="Add" class="btnA">Add Doctor</button>
 	</div>
 </form>
+
 	<div class="headerAD">
 	<h2>Delete Doctor</h2>
 </div>

@@ -13,10 +13,10 @@
 		
 		<ul > 
 			
-					<li><a href="index2.php">MyInfo</a></li>
+			<li><a href="index2.php">MyInfo</a></li>
 			<li><a href="doctorapp.php">My Appointments</a></li>
 			<li><a href=" searchpatient.php">Search Patient</a></li>
-			<li><a href="add.php">Add Description</a></li>
+			<li><a href="add.php">Add Prescription</a></li>
 			<li><a href="Doctorpatient.php">Logout</a></li>
 
 		</ul>
