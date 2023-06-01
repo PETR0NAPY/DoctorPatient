@@ -3,7 +3,14 @@
 <head>
 	<title>Doctor Patient</title>
 	<link rel="stylesheet"  href="style/doctorpatient.css">
-
+	<style type="text/css">
+		body {
+			background-image: url('image.jpg');
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+	</style>
+	
 	<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
