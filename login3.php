@@ -5,9 +5,16 @@
 <head>
 	<title>Admin</title>
 	<link rel="stylesheet" type="text/css" href="style/style4.css">
+	<style type="text/css">
+		body {
+			background-image: url('admin.jpg');
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+	</style>
 </head>
 <body class="Abody">
-	<div class="Aheader">
+<div class="Aheader">
 	<h2>Admin Login</h2>
 </div>
 

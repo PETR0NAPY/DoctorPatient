@@ -11,7 +11,6 @@
 <header>
 	<h1>Doctor<span>Patient</span></h1>
 		<nav>
-
 		<ul> 
 			<li><a href="index3.php">Add/Delete Doctor</a></li>
 			<li><a href="viewdoctor.php">View Doctors</a></li>
@@ -19,8 +18,7 @@
 
   			<li><a href="Doctorpatient.php">Logout</a></li>
 		</ul>
-		
-	</nav>
+		</nav>
 </header>
 	<body>
 	<div class="headerA">

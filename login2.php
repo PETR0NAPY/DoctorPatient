@@ -5,7 +5,15 @@
 <head>
 	<title>Doctor</title>
 	<link rel="stylesheet" type="text/css" href="style/style3.css">
+	<style type="text/css">
+		body {
+			background-image: url('doctor.jpg');
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+	</style>
 </head>
+
 <body class="Dbody">
 	<div class="Dheader">
 	<h2>Doctor Login</h2>
