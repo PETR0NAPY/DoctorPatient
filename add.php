@@ -114,7 +114,6 @@ if (empty($note)) {
 	# code...
 }
 
-
 if(count($errors)==0){
 
 
