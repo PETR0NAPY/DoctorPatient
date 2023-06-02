@@ -121,7 +121,7 @@ if(count($errors)==0){
 	$sql7 = "INSERT INTO  description (descID,descName,treatment,note,doctorIDdesc) VALUES ('$descID','$descName','$treatment','$note','$doctorprofile') ";
 	if ($mysqli -> query($sql7)) { ?>
 
-	<h2 class="thanks"> <?php printf("Your Description Is Added",$mysqli->affected_rows);?></h2>
+	<h2 class="thanks"> <?php printf("Your Prescription Is Added",$mysqli->affected_rows);?></h2>
 			
 			
 		<?php 

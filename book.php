@@ -1,8 +1,8 @@
 <?php include 'bookserver.php'; ?>
 <?php 
 $min = new DateTime();
-$min->modify("0 days");
-$max = new DateTime("4 days");
+$min->modify("3 days");
+$max = new DateTime("9 days");
 ?>
 
 <!DOCTYPE html>
