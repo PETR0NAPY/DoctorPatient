@@ -7,7 +7,6 @@
 
 	<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 </head>
-
 <header>
 	<h1>Doctor<span>Patient</span></h1>
 		<nav>
@@ -21,7 +20,6 @@
 			<li><a href="Doctorpatient.php">Logout</a></li>
 		</ul>
 	</nav>
-
 </header>
 
 <body>
