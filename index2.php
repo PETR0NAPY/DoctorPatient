@@ -8,7 +8,7 @@
 </head>
 
 <header>
-	<h1 >Doctor<span>Patient</span></h1>
+	<h1 >Doctors<span>board</span></h1>
 		<nav>
 		
 		<ul > 
