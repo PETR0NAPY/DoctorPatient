@@ -24,8 +24,7 @@
 
 </header>
 <body >
-
-	<div class="header">
+<div class="header">
 	<h2>My Information</h2>
 </div>
 <form method="post" action="index2.php" class="info">
