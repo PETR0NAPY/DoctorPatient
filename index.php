@@ -9,7 +9,7 @@
 </head>
 
 <header>
-	<h1>Doctor<span>Patient</span></h1>
+	<h1>Patients<span>board</span></h1>
 		<nav>
 		<ul> 
 			<li><a href=" index.php">MyInfo</a></li>
@@ -23,13 +23,13 @@
 
 </header>
 <body >
-		<div class="headerP" style="width: 15%;margin-top: 60px;color: white;background: #39ca74;text-align: center;border-radius: 10px 10px 5px 5px;border-bottom: none; border :1px solid #39ca74;padding: 10px;margin-left:-4px   ">
+<div class="headerP">
 	<h2>My Information</h2>
 </div>
 
-<form method="post" action="index.php"  class="infoP" style="margin-left:-1px; margin-top:0px ;width: 40%;padding: 20px;border :3px solid #39ca74 ;background: white; border-radius: 10px 10px 10px 10px;">
+<form method="post" action="index.php"  class="infoP" >
 
-<div class="contentP" style="font-weight: bold;">
+<div class="contentP">
 
 	<label>ID: <?php echo "" .isset($_SESSION['UserID']);?></label>
 
@@ -53,7 +53,7 @@
  	 	   </div>
     
 	 	   	<div class="input-group">
-		<button type="submit" name="treatmentHistory" class="btn" style=" border-radius: 5px;margin-left: 80%; border:none;padding: 10px 20px 10px 20px">MyTreatment History</button>
+		<button type="submit" name="treatmentHistory" class="btn" >MyTreatment History</button>
 
 </div>
 </form>

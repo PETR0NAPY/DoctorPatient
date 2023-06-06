@@ -8,7 +8,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 </head>
 <header>
-	<h1>Doctor<span>Patient</span></h1>
+	<h1>Doctors<span>board</span></h1>
 		<nav>
 		
 		<ul> 

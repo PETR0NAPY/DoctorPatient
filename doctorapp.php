@@ -9,7 +9,7 @@
 </head>
 
 <header>
-	<h1>Doctor<span>Patient</span></h1>
+	<h1>Doctors<span>board</span></h1>
 		<nav>
 		
 		<ul> 
@@ -27,7 +27,7 @@
 </header>
 
 <body>
-	<h1 class="my1"><span class="mys">My Appointments</span></h1>
+	<h1 class="my1">My Appointments</h1>
 
 	<table class="table2">
 		<tr>

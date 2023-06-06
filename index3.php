@@ -9,7 +9,7 @@
 </head>
 
 <header>
-	<h1>Doctor<span>Patient</span></h1>
+	<h1>Admin's<span>board</span></h1>
 		<nav>
 		<ul> 
 			<li><a href="index3.php">Add/Delete Doctor</a></li>
@@ -71,8 +71,8 @@
 	</div>
 </form>
 
-	<div class="headerAD">
-	<h2>Delete Doctor</h2>
+<div class="headerAD">
+<h2>Delete Doctor</h2>
 </div>
 <form method="post" action="index3.php" class="delete">
 
@@ -83,7 +83,7 @@
 
 	<div class="input-groupA">
 		<button type="submit" name="Delete" class="btnA">Delete</button>
-	</div>
+</div>
 
 </form>
 

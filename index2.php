@@ -3,16 +3,14 @@
 <html>
 <head>
 	<title>Doctor</title>
-	<link rel="stylesheet"  href="style/style2.css">
+	<link rel="stylesheet"  href="style/style8.css">
 	<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <header>
-	<h1 >Doctor<span>Patient</span></h1>
+	<h1 >Doctors<span>board</span></h1>
 		<nav>
-		
 		<ul > 
-			
 			<li><a href="index2.php">MyInfo</a></li>
 			<li><a href="doctorapp.php">My Appointments</a></li>
 			<li><a href=" searchpatient.php">Search Patient</a></li>
@@ -24,8 +22,7 @@
 
 </header>
 <body >
-
-	<div class="header">
+<div class="header">
 	<h2>My Information</h2>
 </div>
 <form method="post" action="index2.php" class="info">

@@ -177,7 +177,7 @@ form{
 	border-radius: 0px 0px 10px 10px;
 }
 
-AD{
+.headerAD{
 	width: 30%;
 	margin:-630px 20px 0px 900px;
 	color: white;
@@ -232,8 +232,6 @@ font-size: 30px;
 	background: #992828;
 	border:none;
 	border-radius: 5px;
-
-
 
 
 }
