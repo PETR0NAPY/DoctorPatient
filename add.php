@@ -4,6 +4,13 @@
 <head>
 	<title>Doctor</title>
 	<link rel="stylesheet"  href="style/style3.css">
+	<style type="text/css">
+		body {
+			background-image: url('prescription.jpg');
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+	</style>
 
 	<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 </head>
