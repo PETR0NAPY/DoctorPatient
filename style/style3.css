@@ -65,7 +65,7 @@ a:hover{
 }
 body{
 	font-size: 120%;
-	background: #F8F8FF;
+	background: #d0d0d5;
 
 }
 
@@ -197,7 +197,7 @@ body{
 	font-family: monospace;
 	font-size: 20px;
 	text-align: center;
-	margin-top: 130px;
+	margin-top: 150px;
 
 
 
@@ -230,8 +230,8 @@ tr:nth-child(even){
 	border: 2px solid #282828;
      border-bottom: none;
 	border-radius: 10px 10px 0px 0px ;
-	padding: 20px;
-	margin-top: 30px;
+	padding: 10px;
+	margin-top: 10px;
 	font-family: 'Alfa Slab One',cursive;
 	color: #f2f2f2;
 }
@@ -267,7 +267,7 @@ tr:nth-child(even){
 .patientsearch{
 
 	width: 30%;
-	margin:0px auto;
+	margin:10px auto;
 	padding: 20px;
 	border: 1px solid #423289;
 	background: white;
@@ -288,7 +288,7 @@ tr:nth-child(even){
 
 
 	width: 30%;
-	margin:0px auto;
+	margin:10px auto;
 	padding: 20px;
 	border: 1px solid #B0C4DE;
 	background: white;
