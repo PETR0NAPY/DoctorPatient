@@ -42,6 +42,28 @@ $max = new DateTime("9 days");
 </div>
 
 <form method="post" action="book.php">
+	<!--CODE TO SEND SMS-->  
+<?php
+if(isset($_POST['Book'])){
+    $baseurl = "https://api.mobitechtechnologies.com/sms/sendsms";
+    $ch = curl_init($baseurl);
+    $data = array(
+        "mobile" => $_POST['phone'],
+        "response_type" => "json",
+        "sender_name" => "23107",
+        "service_id" => 0,
+        "message" => "Hello, Thank you for making an appointment to Doctor Patient. Your appointment has been successfully received. \n\nRegards\nDoctor Patient BS.",
+    );
+    $payload = json_encode($data);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, $payload);
+    curl_setopt($ch, CURLOPT_HTTPHEADER, array('Content-Type:application/json', 'h_api_key:2b0ed0557644f9aa49f40b11f20063a55f741a3ca92bf5a6b51b781107456554'));
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    $result = json_encode(curl_exec($ch));
+    echo $result;    
+    curl_close($ch);
+}
+?>
+<!--CODE TO SEND SMS-->
 
 <?php include ('errors.php');?>
 	<form action="<?php echo $_SERVER['PHP_SELF'];?>" method="post">
@@ -89,28 +111,6 @@ $max = new DateTime("9 days");
 
 	} ?>
 
-	<!--CODE TO SEND SMS-->  
-<?php
-if(isset($_POST['Book'])){
-    $baseurl = "https://api.mobitechtechnologies.com/sms/sendsms";
-    $ch = curl_init($baseurl);
-    $data = array(
-        "mobile" => $_POST['phone'],
-        "response_type" => "json",
-        "sender_name" => "23107",
-        "service_id" => 0,
-        "message" => "Hello, Thank you for making an appointment to Doctor Patient. Your appointment has been successfully received. \n\nRegards\nDoctor Patient BS.",
-    );
-    $payload = json_encode($data);
-    curl_setopt($ch, CURLOPT_POSTFIELDS, $payload);
-    curl_setopt($ch, CURLOPT_HTTPHEADER, array('Content-Type:application/json', 'h_api_key:2b0ed0557644f9aa49f40b11f20063a55f741a3ca92bf5a6b51b781107456554'));
-    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-    $result = json_encode(curl_exec($ch));
-    echo $result;    
-    curl_close($ch);
-}
-?>
-<!--CODE TO SEND SMS-->
 	 </select>
 	 </div>
 
@@ -138,7 +138,7 @@ if(isset($_POST['Book'])){
 	</div>
 
 	 <div class="input-group">
-			<button type="submit" name="Book" class="btn">BOOK</button>
+			<button type="submit" value = "Book" name="Book" class="btn">BOOK</button>
 	</div>
 	 
 	 <?php  
