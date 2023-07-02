@@ -25,7 +25,7 @@ if(isset($_POST["Register"])){
 
 
     $mail->Subject ="Doctor Patient SignUp";
-    $mail->Body = "Hello, Thank you for registering to Doctor Patient";
+    $mail->Body = "Hello, Thank you for successfully registering to Doctor Patient";
 
     $mail->send();
 }
