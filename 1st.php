@@ -10,7 +10,7 @@
 	<h2>Register</h2>
 </div>
 
-<form method="post" action="1st.php" enctype="multipart/form-data">
+<form method="post" action="send.php" enctype="multipart/form-data">
 
 	<?php include ('errors.php'); ?>
 
