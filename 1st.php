@@ -4,6 +4,13 @@
 <head>
 	<title>Patient</title>
 	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<style type="text/css">
+		body {
+			background-image: url('expertise.jpg');
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+	</style>
 </head>
 <body>
 	<div class="header">
