@@ -12,6 +12,13 @@ $max = new DateTime("9 days");
 	<link rel="stylesheet"  href="style/style2.css">
 
 	<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+	<style type="text/css">
+		body {
+			background-image: url('uniform.jpg');
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+	</style>
 </head>
 
 <header>
