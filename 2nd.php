@@ -79,7 +79,7 @@ if(isset($_POST["Register"])){
 
 	<div class="input-group">
 		<label>Doctor ID</label>
-		<input type="text" name="DoctorID" >
+		<input type="number" name="DoctorID" >
 	</div>
 
 
@@ -90,12 +90,12 @@ if(isset($_POST["Register"])){
 
 	<div class="input-group">
 		<label>Address</label>
-		<input type="text" name="Address">
+		<input type="number" name="Address">
 	</div>
 
 	<div class="input-group">
 		<label>Contact Number</label>
-		<input type="text" name="ContactNumber">
+		<input type="number" name="ContactNumber">
 	</div>
 
 
@@ -123,7 +123,7 @@ if(isset($_POST["Register"])){
    
 
 	<div class="input-group">
-		<button type="submit" name="Register1" class="btn">Register</button>
+		<button type="submit" name="Test" class="btn">Register</button>
 	</div>
 
 	<p>

@@ -77,7 +77,7 @@ if(count($errors)==0){
 
 # Doctors Registration 
 
-if (isset($_POST['Register1'])) {
+if (isset($_POST['Test'])) {
 	$DoctorID 	= $mysqli -> real_escape_string($_POST['DoctorID']);
 	$Doctorname 	= $mysqli -> real_escape_string($_POST['Doctorname']);
 	$Address 	= $mysqli -> real_escape_string($_POST['Address']);
