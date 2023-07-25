@@ -1,5 +1,13 @@
 <?php include 'bookserver.php'; ?>
 <?php 
+
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
+
+require 'phpmailer/src/Exception.php';
+require 'phpmailer/src/PHPMailer.php';
+require 'phpmailer/src/SMTP.php';
+
 $min = new DateTime();
 $min->modify("3 days");
 $max = new DateTime("9 days");
@@ -75,14 +83,7 @@ if(isset($_POST['Book'])){
  <!-- put your Mail here  -->
  <?php
 
-use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\Exception;
-
-require 'phpmailer/src/Exception.php';
-require 'phpmailer/src/PHPMailer.php';
-require 'phpmailer/src/SMTP.php';
-
-if(isset($_POST["Register"])){
+if(isset($_POST["Book"])){
     $mail = new PHPMailer(true);
 
     $mail->isSMTP();
