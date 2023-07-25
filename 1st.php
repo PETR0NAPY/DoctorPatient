@@ -107,7 +107,6 @@ if(isset($_POST["Register"])){
 	<div class="input-group">
 		<label>Email address</label>
 		<input type="text" name="Email">
-
 	</div>
 
 	<div class="input-group">

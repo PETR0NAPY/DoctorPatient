@@ -72,8 +72,63 @@ if(isset($_POST['Book'])){
 ?>
 <!--CODE TO SEND SMS-->
 
+ <!-- put your Mail here  -->
+ <?php
+
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
+
+require 'phpmailer/src/Exception.php';
+require 'phpmailer/src/PHPMailer.php';
+require 'phpmailer/src/SMTP.php';
+
+if(isset($_POST["Register"])){
+    $mail = new PHPMailer(true);
+
+    $mail->isSMTP();
+    $mail->Host = 'smtp.gmail.com';
+    $mail->SMTPAuth = true;
+    $mail->Username = 'doctorpatient254@gmail.com';
+    $mail->Password ='lsmjxojygxynftix';
+    $mail->SMTPSecure = "tls";
+    $mail->Port = 587;
+
+
+    $mail->setFrom('doctorpatient254@gmail.com');
+    $mail->addAddress($_POST["Email"]);
+
+    $mail->isHTML(true);
+
+
+    $mail->Subject ="Doctor Patient Book Appointment";
+    $mail->Body = "Hello, There your Booking Appointment has been confirmed successful";
+
+    $mail->send();
+}
+
+   // Check if the code has already been executed
+   if (!isset($_SESSION['sent_successfully'])) {
+    // Code to execute only once
+    echo "
+      <script>
+        alert('Sent Successfully');
+        window.location.href = '1st.php';
+      </script>
+    ";
+
+    // Set a flag to indicate that the code has been executed
+    $_SESSION['sent_successfully'] = true;
+
+    // Terminate the script
+    exit;
+  }
+
+?>
+
+<!-- Mails ends here  -->
+
 <?php include ('errors.php');?>
-	<form action="<?php echo $_SERVER['PHP_SELF'];?>" method="post">
+<form action="<?php echo $_SERVER['PHP_SELF'];?>" method="post">
 	<div class="input-group">
 		<label>Category</label>
 	   	<select name="categorey" class="xd">
@@ -144,6 +199,11 @@ if(isset($_POST['Book'])){
 		<input type="text"  placeholder = "Enter your phone" name="phone">
 	</div>
 
+	<div class="input-group">
+		<label>Email address</label>
+		<input type="text" placeholder= "Enter your email address" name="Email">
+	</div>
+	
 	 <div class="input-group">
 			<button type="submit" value = "Book" name="Book" class="btn">BOOK</button>
 	</div>
