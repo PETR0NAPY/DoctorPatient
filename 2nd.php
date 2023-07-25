@@ -27,7 +27,7 @@ require 'phpmailer/src/Exception.php';
 require 'phpmailer/src/PHPMailer.php';
 require 'phpmailer/src/SMTP.php';
 
-if(isset($_POST["Register"])){
+if(isset($_POST["Test"])){
     $mail = new PHPMailer(true);
 
     $mail->isSMTP();
@@ -40,7 +40,7 @@ if(isset($_POST["Register"])){
 
 
     $mail->setFrom('doctorpatient254@gmail.com');
-    $mail->addAddress($_POST["Email"]);
+    $mail->addAddress($_POST["email"]);
 
     $mail->isHTML(true);
 
