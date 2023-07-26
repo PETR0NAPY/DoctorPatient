@@ -126,9 +126,9 @@ if (empty($category)) {
 if(count($errors)==0){
 
 
-	$Password=md5($Password);
+	// $Password=md5($Password);
 
-	$sql = "INSERT INTO  doctor (DoctorID, Doctorname, email, Address, ContactNumber, password, categorey) VALUES ('$DoctorID','$Doctorname','$Address','$ContactNumber','$Email','$Password','$category') ";
+	$sql = "INSERT INTO  doctor (DoctorID, Doctorname, Address, ContactNumber,email, password, categorey) VALUES ('$DoctorID','$Doctorname','$Address','$ContactNumber','$Email','$Password','$category') ";
    
 	if (!$mysqli -> query($sql)) {
   printf("%d Row inserted.\n", $mysqli->affected_rows);
