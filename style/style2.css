@@ -201,9 +201,9 @@ form{
 	width: 100%;
 	color: #282828;
 	font-family: monospace;
-	font-size: 25px;
+	font-size: 20px;
 	text-align: center;
-	margin-top: 130px;
+	margin-top: 150px;
 
 
 
@@ -221,10 +221,7 @@ tr:nth-child(even){
 }
 .my{
 
-	
 	color: #39ca74;
-	
-	
 	
 	
 }
@@ -240,8 +237,8 @@ tr:nth-child(even){
 	border: 2px solid #282828;
      border-bottom: none;
 	border-radius: 10px 10px 0px 0px ;
-	padding: 20px;
-	margin-top: 30px;
+	padding: 10px;
+	margin-top: 10px;
 	font-family: 'Alfa Slab One',cursive;
 	color: #39ca74;
 }
