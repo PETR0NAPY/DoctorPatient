@@ -25,13 +25,13 @@
 </div>
 
 </div>
-	<div class="wrapper" style="text-decoration: none;">
+	<div class="wrapper">
 	<div class="btn" > <a href="login.php"  >
 <button type="button" class="buttonP">Patient</button>
 </div>
 
 </div>
-	<div class="wrapper" style="text-decoration: none;">
+	<div class="wrapper" >
 	<div class="btn" > <a href="login2.php"  >
 <button type="button" class="buttonD">Doctor</button>
         </a>

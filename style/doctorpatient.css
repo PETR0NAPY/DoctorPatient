@@ -86,7 +86,7 @@ body{
 	transform: translate(-50%,-50%);
 }
 .buttonP{
-	background: none;
+    background: #0e9ad1;
 	color: #4d4d4d;
 	width: 240px;
 	height: 80px;
@@ -153,7 +153,7 @@ body{
 	transform: translate(-50%,-50%);
 }
 .buttonD{
-	background: none;
+    background: #cc0fd3;
 	color: #ccc;
 	width: 240px;
 	height: 80px;
