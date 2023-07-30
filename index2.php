@@ -23,7 +23,6 @@
 			<li><a href=" searchpatient.php">Search Patient</a></li>
 			<li><a href="add.php">Add Prescription</a></li>
 			<li><a href="Doctorpatient.php">Logout</a></li>
-
 		</ul>
 	</nav>
 

@@ -16,7 +16,7 @@
 </head>
 
 <header>
-	<h1>Admin's<span>board</span></h1>
+	<h1>Admin's <span>board</span></h1>
 		<nav>
 		<ul> 
 			<li><a href="index3.php">Add/Delete Doctor</a></li>
