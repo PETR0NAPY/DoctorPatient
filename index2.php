@@ -15,7 +15,7 @@
 </head>
 
 <header>
-	<h1 >Doctor's <span>board</span></h1>
+	<h1 >Doctor's<span>board</span></h1>
 		<nav>
 		<ul > 
 			<li><a href="index2.php">MyInfo</a></li>
@@ -23,7 +23,6 @@
 			<li><a href=" searchpatient.php">Search Patient</a></li>
 			<li><a href="add.php">Add Prescription</a></li>
 			<li><a href="Doctorpatient.php">Logout</a></li>
-
 		</ul>
 	</nav>
 

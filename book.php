@@ -30,7 +30,7 @@ $max = new DateTime("9 days");
 </head>
 
 <header>
-	<h1>Patients<span>board</span></h1>
+	<h1>Patient's<span>board</span></h1>
 		<nav>
 		
 		<ul> 
