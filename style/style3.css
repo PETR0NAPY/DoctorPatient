@@ -195,7 +195,7 @@ body{
 	width: 100%;
 	color: #282828;
 	font-family: monospace;
-	font-size: 20px;
+	font-size: 18px;
 	text-align: center;
 	margin-top: 150px;
 
@@ -344,7 +344,7 @@ font-size: 20px;
 }
 
 .asd{
-	color: #f0eaead3;
+	color: rgba(255, 255, 255, 0.827);
 
 }
 .table3{

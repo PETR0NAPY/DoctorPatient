@@ -16,14 +16,16 @@ require 'phpmailer/src/SMTP.php';
 	<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 	<style type="text/css">
 		body {
-			background-image: url('piron.jpg');
+			background-image: url('cancel.jpg');
 			background-repeat: no-repeat;
+      height: 70%;
+      width: 100%;
 			background-size: cover;
 		}
 	</style>
 </head>
 <header>
-	<h1>Patient's<span>board</span></h1>
+	<h1>Patient's <span>board</span></h1>
 		<nav>
 		
 	
@@ -87,7 +89,7 @@ if(isset($_POST["cancel"])){
 
 
     $mail->Subject ="Doctor Patient Cancel Booking";
-    $mail->Body = "Hello, There, It's so  sad 😥 to see you Canceling your appointment. Get well soon 🙂Bye for Now ❤";
+    $mail->Body = "Hello, There, It's so  sad to see you Cancel your appointment. Your appointment has been cancelled succesfully";
 
     $mail->send();
 }

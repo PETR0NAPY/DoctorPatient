@@ -8,7 +8,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 	<style type="text/css">
 		body {
-			background-image: url('expertise.jpg');
+			background-image: url('Doctorsapp.jpg');
 			background-repeat: no-repeat;
 			background-size: cover;
 		}
@@ -16,7 +16,7 @@
 </head>
 
 <header>
-	<h1>Doctor's<span>board</span></h1>
+	<h1>Doctor's <span>board</span></h1>
 		<nav>
 		
 		<ul> 
@@ -41,11 +41,11 @@
 		<th>Appointment ID</th>
 		<th>DATE</th>
 		<th>TIME</th>
-		<th>PatientID</th>
-		<th>PatientName</th>
-		<th>PatientAddress</th>
-		<th>PatientEmail</th>
-		<th>PatientContactNumber</th>
+		<th>Patient ID</th>
+		<th>Patient Name</th>
+		<th>Patient Address</th>
+		<th>Patient Email</th>
+		<th>Patient Number</th>
 		<th>BloodGroup</th>
 
 		
