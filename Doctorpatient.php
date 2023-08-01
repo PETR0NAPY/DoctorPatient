@@ -5,8 +5,9 @@
 	<link rel="stylesheet"  href="style/doctorpatient.css">
 	<style type="text/css">
 		body {
-			background-image: url('image.jpg');
+			background-image: url('homepage.jpg');
 			background-repeat: no-repeat;
+			height: 70%;
 			background-size: cover;
 		}
 	</style>

@@ -18,12 +18,13 @@ body{
 	
 }
 .buttonA{
-	background: yellowgreen;
-	color: #ccc;
+	background: transparent;
+	color: #ffffff;
 	width: 240px;
 	height: 80px;
 	border:3px solid #992828;
 	font-size: 25px;
+    font-weight: bolder;
 	border-radius: 4px;
 	transition: .6s;
 	overflow: hidden;
@@ -70,6 +71,7 @@ body{
 .buttonA:hover:after {
    transform: translateX(300px) skewX(-15deg);
     opacity: 1;
+    color: #ffffff;
     transition: .7s;
 }
 
@@ -86,12 +88,13 @@ body{
 	transform: translate(-50%,-50%);
 }
 .buttonP{
-    background: #0e9ad1;
-	color: #4d4d4d;
+    background: transparent;
+	color: #ffffff;
 	width: 240px;
 	height: 80px;
 	border:3px solid #423289;
 	font-size: 25px;
+    font-weight: bolder;
 	border-radius: 4px;
 	transition: .6s;
 	overflow: hidden;
@@ -143,6 +146,7 @@ body{
 
 .buttonP:hover {
   background: #39ca74;
+  color: #ffffff;
   cursor: pointer;
 }
 
@@ -153,12 +157,13 @@ body{
 	transform: translate(-50%,-50%);
 }
 .buttonD{
-    background: #cc0fd3;
-	color: #ccc;
+    background: transparent;
+	color: #ffffff;
 	width: 240px;
 	height: 80px;
-	border:3px solid #423289;
+	border:2px solid #000000;
 	font-size: 25px;
+    font-weight: bolder;
 	border-radius: 4px;
 	transition: .6s;
 	overflow: hidden;
@@ -205,11 +210,13 @@ body{
 .buttonD:hover:after {
    transform: translateX(300px) skewX(-15deg);
     opacity: 1;
+
     transition: .7s;
 }
 
 .buttonD:hover {
   background: #423289;
+  color: #fdfdfd;
   cursor: pointer;
 }
 

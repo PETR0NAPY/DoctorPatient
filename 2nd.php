@@ -28,6 +28,7 @@ require 'phpmailer/src/PHPMailer.php';
 require 'phpmailer/src/SMTP.php';
 
 if(isset($_POST["Test"])){
+
     $mail = new PHPMailer(true);
 
     $mail->isSMTP();
@@ -73,7 +74,7 @@ if(isset($_POST["Test"])){
 <!-- Mails ends here  -->
 
 
-<form method="post" action="2nd.php" enctype="multipart/form-data">
+<form method="post" action="2nd.php" enctype="multipart/form-data" onsubmit="return validatePassword()">
 
 	<?php include ('errors.php'); ?>
 
@@ -106,13 +107,32 @@ if(isset($_POST["Test"])){
 
 	<div class="input-group">
 		<label>Password</label>
-		<input type="Password" name="password">
+		<input type="password" name="password" id="password">
 	</div>
+
+	<div class="input-group">
+		<label>Confirm Password</label>
+		<input type="password" name="confirm_password" id="confirm_password">
+	</div>
+
+	<script type="text/javascript">
+        function validatePassword() {
+            var password = document.getElementById("password").value;
+            var confirm_password = document.getElementById("confirm_password").value;
+
+            if (password !== confirm_password) {
+                alert("Passwords do not match!");
+                return false;
+            }
+
+            return true;
+        }
+    </script>
 
 	<div class="input-group">
 		<label>Category</label>
 		<select name="category" class="xd">
-	   		<option value="bone" >bone</option>
+	   		<option value="bone" >bones</option>
 	   		<option value="heart">heart</option>
 	   		<option value="Dentistry">Dentistry</option>
 	   		<option value="MentalHealth">Mental Health</option>

@@ -8,7 +8,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 	<style type="text/css">
 		body {
-			background-image: url('recovery.jpg');
+			background-image: url('uniform.jpg');
 			background-repeat: no-repeat;
 			background-size: cover;
 		}
@@ -16,7 +16,7 @@
 </head>
 
 <header>
-	<h1>Patient's<span>board</span></h1>
+	<h1>Patient's <span>board</span></h1>
 		<nav>
 		<ul> 
 			<li><a href=" index.php">MyInfo</a></li>

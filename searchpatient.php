@@ -15,7 +15,7 @@
 	</style>
 </head>
 <header>
-	<h1>Doctor's<span>board</span></h1>
+	<h1>Doctor's <span>board</span></h1>
 		<nav>
 		
 		<ul> 

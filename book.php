@@ -22,7 +22,7 @@ $max = new DateTime("9 days");
 	<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 	<style type="text/css">
 		body {
-			background-image: url('uniform.jpg');
+			background-image: url('recovery.jpg');
 			background-repeat: no-repeat;
 			background-size: cover;
 		}
@@ -30,7 +30,7 @@ $max = new DateTime("9 days");
 </head>
 
 <header>
-	<h1>Patient's<span>board</span></h1>
+	<h1>Patient's <span>board</span></h1>
 		<nav>
 		
 		<ul> 
@@ -67,7 +67,7 @@ if(isset($_POST['Book'])){
         "response_type" => "json",
         "sender_name" => "23107",
         "service_id" => 0,
-        "message" => "Hello, Thank you for making an appointment to Doctor Patient. Your appointment has been successfully received. \n\nRegards\nDoctor Patient BS.",
+        "message" => "Hello, Thank you for making an appointment to Doctor Patient. Your appointment has been successfully approved. \n\nRegards\nDoctor Patient BS.",
     );
     $payload = json_encode($data);
     curl_setopt($ch, CURLOPT_POSTFIELDS, $payload);
@@ -102,7 +102,7 @@ if(isset($_POST["Book"])){
 
 
     $mail->Subject ="Doctor Patient Book Appointment";
-    $mail->Body = "Hello, There your Booking Appointment has been confirmed successful";
+    $mail->Body = "Hello, Your Appointment has been approved successful";
 
     $mail->send();
 }

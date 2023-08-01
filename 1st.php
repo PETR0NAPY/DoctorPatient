@@ -72,7 +72,7 @@ if(isset($_POST["Register"])){
 
 <!-- Mails ends here  -->
 
-<form method="post" action="1st.php" enctype="multipart/form-data">
+<form method="post" action="1st.php" enctype="multipart/form-data" onsubmit="return validatePassword()">
 
 	<?php include ('errors.php'); ?>
 
@@ -99,8 +99,6 @@ if(isset($_POST["Register"])){
 	<div class="input-group">
 		<label>Contact Number</label>
 		<input type="text" name="ContactNumber">
-
-
 	</div>
 
 
@@ -111,9 +109,28 @@ if(isset($_POST["Register"])){
 
 	<div class="input-group">
 		<label>Password</label>
-		<input type="Password" name="password">
-
+		<input type="Password" name="password" id="password">
 	</div>
+
+	<div class="input-group">
+		<label>Confirm Password</label>
+		<input type="password" name="confirm_password" id="confirm_password">
+	</div>
+
+	<script type="text/javascript">
+		function validatePassword() {
+			var password = document.getElementById("password").value;
+			var confirm_password = document.getElementById("confirm_password").value;
+
+			if (password != confirm_password) {
+				alert("Passwords do not match!");
+				return false;
+			}
+
+			return true;
+		}
+	</script>
+
 
 	<div class="input-group">
 		<label>Blood type</label>
