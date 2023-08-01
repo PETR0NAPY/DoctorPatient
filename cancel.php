@@ -55,7 +55,7 @@ if(isset($_POST['cancel'])){
         "response_type" => "json",
         "sender_name" => "23107",
         "service_id" => 0,
-        "message" => "Hello, Thank you for making an appointment to Doctor Patient. Your appointment has been successfully received. \n\nRegards\nDoctor Patient BS.",
+        "message" => "Hello, There, It's so  sad to see you Cancel your appointment. Your appointment has been cancelled succesfully.",
     );
     $payload = json_encode($data);
     curl_setopt($ch, CURLOPT_POSTFIELDS, $payload);

@@ -67,7 +67,7 @@ if(isset($_POST['Book'])){
         "response_type" => "json",
         "sender_name" => "23107",
         "service_id" => 0,
-        "message" => "Hello, Thank you for making an appointment to Doctor Patient. Your appointment has been successfully approved. \n\nRegards\nDoctor Patient BS.",
+        "message" => "Hello, Thank you for making an appointment to Doctor Patient. Your appointment has been successfully approved. \n\nRegards\nDoctor Patient.",
     );
     $payload = json_encode($data);
     curl_setopt($ch, CURLOPT_POSTFIELDS, $payload);
