@@ -89,7 +89,8 @@
 			<?php 	
 				 if (isset($_POST['SearchP'])) {
 
-         ?>	<table class="table2">
+         ?>	
+		 <table class="table2">
          	<caption style="margin-left: 34px;padding: 10px;font-weight: bold;font-size: 30px;" class="asd">Treatment History</caption>>
 		<tr>
 		<th>PatientID</th>

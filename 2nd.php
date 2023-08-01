@@ -13,6 +13,29 @@
 	</style>
 </head>
 <body>
+
+	<!--CODE TO SEND SMS-->  
+	<?php
+if(isset($_POST['Test'])){
+    $baseurl = "https://api.mobitechtechnologies.com/sms/sendsms";
+    $ch = curl_init($baseurl);
+    $data = array(
+        "mobile" => $_POST['ContactNumber'],
+        "response_type" => "json",
+        "sender_name" => "23107",
+        "service_id" => 0,
+        "message" => "Hello, Thank you for successfully registering to Doctor Patient",
+    );
+    $payload = json_encode($data);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, $payload);
+    curl_setopt($ch, CURLOPT_HTTPHEADER, array('Content-Type:application/json', 'h_api_key:2b0ed0557644f9aa49f40b11f20063a55f741a3ca92bf5a6b51b781107456554'));
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    $result = json_encode(curl_exec($ch));
+    echo $result;    
+    curl_close($ch);
+}
+?>
+<!--CODE TO SEND SMS-->
 	<div class="header" >
 	<h2>Register</h2>
 </div>
