@@ -32,7 +32,7 @@
 	<h2>Add Doctor</h2>
     </div>
 
-	<form method="post" action="index3.php">
+	<form method="post" action="index3.php" onsubmit="return validatePassword()">
 		
 	<?php include ('errors.php'); ?>
 
@@ -61,8 +61,26 @@
 	</div>
 	<div class="input-groupA">
 		<label>Password</label>
-		<input type="text" name="addpassword">
+		<input type="password" name="addpassword" id="addpassword">
 	</div>
+	<div class="input-groupA">
+		<label>Confirm Password</label>
+		<input type="password" name="confirm_password" id="confirm_password" onkeyup="checkPasswordMatch();">
+	</div>
+	<script type="text/javascript">
+        function validatePassword() {
+            var password = document.getElementById("addpassword").value;
+            var confirm_password = document.getElementById("confirm_password").value;
+
+            if (password !== confirm_password) {
+                alert("Passwords do not match!");
+                return false;
+            }
+
+            return true;
+        }
+    </script>
+
 <div class="input-groupA">
 	<label>Category</label>
 	   	<select name="addcategory" class="xd">
