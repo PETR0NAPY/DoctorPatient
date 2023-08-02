@@ -176,10 +176,12 @@ form{
 	background: white;
 	border-radius: 0px 0px 10px 10px;
 }
-
+.delete2{
+	margin-left: -200px;
+}
 .headerAD{
 	width: 30%;
-	margin:-630px 20px 0px 900px;
+	margin:-700px 20px 0px 900px;
 	color: white;
 	background: #992828;
 	text-align: center;

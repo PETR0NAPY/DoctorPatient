@@ -11,6 +11,7 @@
 			background-image: url('piron.jpg');
 			background-repeat: no-repeat;
 			background-size: cover;
+			margin-bottom: 500px;
 		}
 	</style>
 </head>
@@ -95,7 +96,7 @@
 		<button type="submit" name="Add" class="btnA">Add Doctor</button>
 	</div>
 </form>
-
+<div class="delete2">
 <div class="headerAD">
 <h2>Delete Doctor</h2>
 </div>
@@ -109,7 +110,7 @@
 	<div class="input-groupA">
 		<button type="submit" name="Delete" class="btnA">Delete</button>
 </div>
-
+</div>
 </form>
 
 </body>
