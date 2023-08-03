@@ -75,23 +75,6 @@ if(isset($_POST["Register"])){
     $mail->send();
 }
 
-   // Check if the code has already been executed
-   if (!isset($_SESSION['sent_successfully'])) {
-    // Code to execute only once
-    echo "
-      <script>
-        alert('Sent Successfully');
-        window.location.href = '1st.php';
-      </script>
-    ";
-
-    // Set a flag to indicate that the code has been executed
-    $_SESSION['sent_successfully'] = true;
-
-    // Terminate the script
-    exit;
-  }
-
 ?>
 
 <!-- Mails ends here  -->
